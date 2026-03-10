@@ -1,3 +1,6 @@
-tk
-pyttsx3
-vosk
+# Dorwal AI — Python dependencies
+# Install with: pip install -r requirements.txt
+
+SpeechRecognition>=3.10.0   # microphone input + Google Web Speech transcription
+pyaudio>=0.2.13             # required by SpeechRecognition for mic access
+pyttsx3>=2.90               # offline text-to-speech (optional, for future TTS feature)
